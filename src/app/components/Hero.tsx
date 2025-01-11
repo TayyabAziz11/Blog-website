@@ -15,7 +15,7 @@ const Hero = () => {
           Your go-to destination for the latest insights on Web Development, AI, and Technology.
         </h2>
         <p className="text-gray-600 dark:text-gray-300">
-          At TayyabBlog, we believe in simplifying complex tech concepts and making them accessible to everyone. Whether you're a beginner or an experienced developer, our in-depth articles, tutorials, and expert insights will keep you ahead of the curve in this ever-evolving digital world.
+          At TayyabBlog, we believe in simplifying complex tech concepts and making them accessible to everyone. Whether you&apose; a beginner or an experienced developer, our in-depth articles, tutorials, and expert insights will keep you ahead of the curve in this ever-evolving digital world.
         </p>
         <Link href="/Blogs">
           <button className="bg-blue-600 hover:bg-blue-700 text-white px-6 py-3 mt-10 rounded-lg font-medium transition-colors">

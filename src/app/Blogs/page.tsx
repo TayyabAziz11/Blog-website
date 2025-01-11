@@ -1,3 +1,4 @@
+// import { Card } from "@/components/ui/card";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { simpleBlogCard } from "@/lib/interface";
@@ -5,8 +6,8 @@ import { client } from "@/sanity/lib/client";
 import { urlFor } from "@/sanity/lib/image";
 import Image from "next/image";
 import Link from "next/link";
-import Navbar from "./components/Navbar";
-import Hero from "./components/Hero";
+import Navbar from "../components/Navbar";
+
 
 
 
@@ -31,8 +32,7 @@ export default async function Blog({blog}:any){
   
   return (
    <>
-      <Navbar/>  
-      <Hero/>
+      <Navbar/>
     <div className="grid grid-cols-1 lg:grid-cols-3 mt-5 gap-10 ">
              
         {data.map((post,idx)=>(
